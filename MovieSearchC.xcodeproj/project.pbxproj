@@ -47,6 +47,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E41936DB22985BD3009AAAB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4647E7F22983FCF00BD5354 /* AppDelegate.h */,
+				E4647E8022983FCF00BD5354 /* AppDelegate.m */,
+				E4647E8822983FD100BD5354 /* Assets.xcassets */,
+				E4647E8A22983FD100BD5354 /* LaunchScreen.storyboard */,
+				E4647E8D22983FD100BD5354 /* Info.plist */,
+				E4647E8E22983FD100BD5354 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E41936DC22985BE7009AAAB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E41936E022985C12009AAAB8 /* ViewControllers */,
+				E41936DF22985C0B009AAAB8 /* ModelControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E41936DD22985BEE009AAAB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E41936D9229850D3009AAAB8 /* MovieTableViewCell.swift */,
+				E4647E8522983FCF00BD5354 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E41936DE22985BF4009AAAB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4647E952298400700BD5354 /* WAMMovie.h */,
+				E4647E962298400700BD5354 /* WAMMovie.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E41936DF22985C0B009AAAB8 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E41936C32298467C009AAAB8 /* WAMMovieController.h */,
+				E41936C42298467C009AAAB8 /* WAMMovieController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		E41936E022985C12009AAAB8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E41936D622985033009AAAB8 /* MovieListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		E4647E7322983FCF00BD5354 = {
 			isa = PBXGroup;
 			children = (
@@ -66,20 +123,11 @@
 		E4647E7E22983FCF00BD5354 /* MovieSearchC */ = {
 			isa = PBXGroup;
 			children = (
-				E4647E7F22983FCF00BD5354 /* AppDelegate.h */,
-				E4647E8022983FCF00BD5354 /* AppDelegate.m */,
-				E4647E8522983FCF00BD5354 /* Main.storyboard */,
-				E4647E8822983FD100BD5354 /* Assets.xcassets */,
-				E4647E8A22983FD100BD5354 /* LaunchScreen.storyboard */,
-				E4647E8D22983FD100BD5354 /* Info.plist */,
-				E4647E8E22983FD100BD5354 /* main.m */,
-				E4647E952298400700BD5354 /* WAMMovie.h */,
-				E4647E962298400700BD5354 /* WAMMovie.m */,
-				E41936C32298467C009AAAB8 /* WAMMovieController.h */,
-				E41936C42298467C009AAAB8 /* WAMMovieController.m */,
-				E41936D622985033009AAAB8 /* MovieListTableViewController.swift */,
+				E41936DE22985BF4009AAAB8 /* Models */,
+				E41936DD22985BEE009AAAB8 /* Views */,
+				E41936DC22985BE7009AAAB8 /* Controllers */,
+				E41936DB22985BD3009AAAB8 /* Resources */,
 				E41936D822985061009AAAB8 /* MovieSearchC-Bridging-Header.h */,
-				E41936D9229850D3009AAAB8 /* MovieTableViewCell.swift */,
 			);
 			path = MovieSearchC;
 			sourceTree = "<group>";
@@ -305,7 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MovieSearchC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MovieSearchC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +373,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MovieSearchC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MovieSearchC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -15,10 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic) double rating;
 @property (nonatomic, copy) NSString *overview;
-@property (nonatomic) NSInteger identifier;
-@property (nonatomic, copy) NSString *imageUrl;
+@property (nonatomic, copy, nullable) NSString *imageUrl;
 
-- (instancetype) initWithTitle:(NSString*)title rating:(double)rating overview:(NSString*)overview identifier:(NSInteger)identifier imageUrl:(NSString*)imageUrl;
+- (instancetype) initWithTitle:(NSString*)title rating:(double)rating overview:(NSString*)overview imageUrl:(NSString*)imageUrl;
 
 - (instancetype) initWithDictionary:(NSDictionary<NSString*, id> *)dictionary;
 

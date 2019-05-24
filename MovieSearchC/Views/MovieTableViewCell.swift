@@ -10,6 +10,7 @@ import UIKit
 
 class MovieTableViewCell: UITableViewCell {
     
+    // Landing pad
     var movie: WAMMovie? {
         didSet {
             updateViews()
@@ -25,6 +26,7 @@ class MovieTableViewCell: UITableViewCell {
         super.awakeFromNib()
     }
     
+    // Update cell view
     func updateViews() {
         guard let movie = movie else { return }
         titleLabel.text = movie.title

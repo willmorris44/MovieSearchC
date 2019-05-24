@@ -33,68 +33,134 @@
             endingLineNumber = "13"
             landmarkName = "movie"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearchC/Models/WAMMovie.h"
+            timestampString = "580414779.455663"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "imageUrl"
+            landmarkType = "24">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "MovieSearchC.MovieTableViewCell.movie.modify : Swift.Optional&lt;__C.WAMMovie&gt;"
+                  symbolName = "-[WAMMovie imageUrl]"
                   moduleName = "MovieSearchC"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/willmorris/Desktop/Xcode/Sandbox/DevMountain/Weeks%201-6/MovieSearchC/MovieSearchC/MovieTableViewCell.swift"
-                  timestampString = "580409307.832514"
+                  urlString = "file:///Users/willmorris/Desktop/Xcode/Sandbox/DevMountain/Weeks%201-6/MovieSearchC/MovieSearchC/Models/WAMMovie.h"
+                  timestampString = "580414779.474339"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "26">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "12">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "MovieSearchC.MovieTableViewCell.movie.modify : Swift.Optional&lt;__C.WAMMovie&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  symbolName = "-[WAMMovie setImageUrl:]"
                   moduleName = "MovieSearchC"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/willmorris/Desktop/Xcode/Sandbox/DevMountain/Weeks%201-6/MovieSearchC/MovieSearchC/MovieTableViewCell.swift"
-                  timestampString = "580409307.834808"
+                  urlString = "file:///Users/willmorris/Desktop/Xcode/Sandbox/DevMountain/Weeks%201-6/MovieSearchC/MovieSearchC/Models/WAMMovie.h"
+                  timestampString = "580414779.476333"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "27">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MovieSearchC.MovieTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; MovieSearchC.MovieTableViewCell"
-                  moduleName = "MovieSearchC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/willmorris/Desktop/Xcode/Sandbox/DevMountain/Weeks%201-6/MovieSearchC/MovieSearchC/MovieTableViewCell.swift"
-                  timestampString = "580409307.837463"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "217">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MovieSearchC.MovieTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MovieSearchC.MovieTableViewCell&gt;"
-                  moduleName = "MovieSearchC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/willmorris/Desktop/Xcode/Sandbox/DevMountain/Weeks%201-6/MovieSearchC/MovieSearchC/MovieTableViewCell.swift"
-                  timestampString = "580409307.839415"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "137">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "20">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearchC/Controllers/ViewControllers/MovieListTableViewController.swift"
+            timestampString = "580414779.455731"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSearchC.MovieListTableViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "MovieSearchC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willmorris/Desktop/Xcode/Sandbox/DevMountain/Weeks%201-6/MovieSearchC/MovieSearchC/Controllers/ViewControllers/MovieListTableViewController.swift"
+                  timestampString = "580414779.482504"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1554">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIImage&gt;) -&gt; () in MovieSearchC.MovieListTableViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "MovieSearchC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/willmorris/Desktop/Xcode/Sandbox/DevMountain/Weeks%201-6/MovieSearchC/MovieSearchC/Controllers/ViewControllers/MovieListTableViewController.swift"
+                  timestampString = "580414779.48487"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "147">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearchC/Controllers/ViewControllers/MovieListTableViewController.swift"
+            timestampString = "580414779.455778"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearchC/Controllers/ViewControllers/MovieListTableViewController.swift"
+            timestampString = "580414779.455821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

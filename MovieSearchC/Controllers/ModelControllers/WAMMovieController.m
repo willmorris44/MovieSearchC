@@ -20,6 +20,8 @@
     return shared;
 }
 
+
+// Fetch movie using search term from search bar
 - (void)searchMovieWithSearchTerm:(NSString *)searchTerm completion:(void (^)(NSArray<WAMMovie*> * _Nullable))completion {
     NSURL *baseUrl = [NSURL URLWithString:@"https://api.themoviedb.org/3/search/movie"];
     
@@ -47,7 +49,6 @@
                 WAMMovie *movie = [[WAMMovie alloc] initWithDictionary:movieDictionary];
                 [arrayOfMovies addObject:movie];
             }
-            WAMMovieController.shared.movies = arrayOfMovies;
             completion(arrayOfMovies);
             return;
         }
@@ -56,7 +57,9 @@
     }] resume];
 }
 
-- (void)fetchImageAtUrlString:(NSString *)urlString completion:(void (^)(UIImage * _Nullable))completion {
+// Fetch the image from the specified movies imageUrl string
+- (void)fetchImageAtUrlString:(NSString * _Nullable)urlString completion:(void (^)(UIImage * _Nullable))completion {
+
     NSURL *baseUrl = [NSURL URLWithString:@"https://image.tmdb.org/t/p/w500"];
     NSURL *finalUrl = [baseUrl URLByAppendingPathComponent:urlString];
     
@@ -72,6 +75,8 @@
             completion(image);
             return;
         }
+        completion(nil);
+        return;
     }] resume];
 }
 

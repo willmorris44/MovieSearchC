@@ -10,6 +10,7 @@ import UIKit
 
 class MovieListTableViewController: UITableViewController {
     
+    // Store the movies fetched from search
     var results: [WAMMovie] = []
     
     @IBOutlet weak var searchBar: UISearchBar!
@@ -22,7 +23,7 @@ class MovieListTableViewController: UITableViewController {
     // MARK: - Table view data source
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return WAMMovieController.shared().movies.count;
+        return results.count;
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -32,14 +33,16 @@ class MovieListTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath) as? MovieTableViewCell
         
-        let movie = WAMMovieController.shared().movies[indexPath.row]
+        let movie = results[indexPath.row]
         cell?.movie = movie
         
         cell?.posterImageView.image = nil
         
-        WAMMovieController.shared().fetchImage(atUrlString: movie.imageUrl) { (image) in
-            DispatchQueue.main.async {
-                cell?.posterImageView.image = image
+        if let imageUrl = movie.imageUrl {
+            WAMMovieController.shared().fetchImage(atUrlString: imageUrl) { (image) in
+                DispatchQueue.main.async {
+                    cell?.posterImageView.image = image
+                }
             }
         }
         

@@ -13,13 +13,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WAMMovieController : NSObject
 
-@property (nonatomic, readwrite) NSArray<WAMMovie *> *movies;
-
 + (instancetype) shared;
 
 - (void) searchMovieWithSearchTerm:(NSString*)searchTerm completion:(void (^) (NSArray<WAMMovie*> * _Nullable))completion;
 
-- (void) fetchImageAtUrlString:(NSString*)urlString completion:(void (^) (UIImage * _Nullable))completion;
+- (void) fetchImageAtUrlString:(NSString* _Nullable)urlString completion:(void (^) (UIImage * _Nullable))completion;
 
 @end
 
